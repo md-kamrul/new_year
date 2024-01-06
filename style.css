@@ -16,7 +16,7 @@
     width: 425px;
     text-align: right;
     float: right;
-    padding: 180px 180px 0px 0px;
+    padding: 150px 180px 0px 0px;
 }
 
 .hero_section_title {
@@ -80,7 +80,7 @@
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 16px;
-    padding-right: 100px;
+    padding-right: 10px;
     text-align: justify;
 }
 
@@ -101,7 +101,7 @@
 
 .plan_section {
     width: 100%;
-    padding: 10px 0px;
+    padding: 10px 30px 10px 30px;
     justify-content: center;
     display: flex;
     margin: 50px 0px;
@@ -138,7 +138,7 @@
     width: 1140px;
     height: 300px;
     background-image: url('images/gradient1.png'), url('images/watch.png');
-    margin: 150px 10%;
+    margin: 150px auto;
     border: none;
     border-radius: 5px;
 }
@@ -208,12 +208,13 @@ footer {
     width: 325px;
     height: 64px;
     border-radius: 8px;
+    color: white;
     border: 1px solid #FFF;
+    padding-left: 20px;
 }
 
 .subscribe_section input::placeholder {
     color: white;
-    padding-left: 20px;
 }
 
 .subscribe_button {
