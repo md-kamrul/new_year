@@ -127,8 +127,29 @@
     margin-bottom: 5px;
 }
 
-.plan_description{
+.plan_description {
     color: #737272;
-font-size: 25px;
-font-weight: 500;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* banner section styles */
+.banner {
+    width: 1140px;
+    height: 300px;
+    background-image: url('images/gradient1.png'), url('images/watch.png');
+    margin: 150px 10%;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 60px 620px 30px 60px;
+}
+
+.call_now_button {
+    margin-left: 60px;
 }
