@@ -101,7 +101,7 @@
 
 .plan_section {
     width: 100%;
-    padding: 10px 30px 10px 30px;
+    padding: 10px auto;
     justify-content: center;
     display: flex;
     margin: 50px 0px;
