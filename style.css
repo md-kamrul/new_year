@@ -54,7 +54,7 @@
     height: 500px;
 }
 
-.content{
+.content {
     padding-left: 100px;
     padding-top: 200px;
 }
@@ -68,13 +68,14 @@
     margin-bottom: 24px;
 }
 
-.text{
+.text {
     display: flex;
     gap: 5px;
     padding-bottom: 1px;
 }
 
-.content_body, .text p {
+.content_body,
+.text p {
     color: #444343;
     font-weight: 400;
     line-height: 26px;
@@ -83,6 +84,51 @@
     text-align: justify;
 }
 
-.text p{
+.text p {
     margin: 0;
+}
+
+/* my plans section style */
+.my_plans {
+    padding-top: 150px;
+}
+
+.my_plans .content_title {
+    text-align: center;
+    padding: auto;
+    width: 100%;
+}
+
+.plan_section {
+    width: 100%;
+    padding: 10px 0px;
+    justify-content: center;
+    display: flex;
+    margin: 50px 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plan_details {
+    padding-right: 70px;
+}
+
+.plan_details img {
+    width: 70px;
+    height: 70px;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.plan_title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.plan_description{
+    color: #737272;
+font-size: 25px;
+font-weight: 500;
 }
